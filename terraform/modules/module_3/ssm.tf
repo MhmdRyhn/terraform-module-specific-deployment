@@ -1,4 +1,4 @@
-resource "aws_ssm_parameter" "ssm_roku_aspera_shares" {
+resource "aws_ssm_parameter" "non_sensitive_credentials" {
   name        = "${var.prefix}-non-sensitive-credentials"
   type        = "String"
   value       = var.ssm_param_value
